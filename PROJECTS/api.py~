@@ -1,0 +1,8 @@
+import requests
+from bs4 import BeautifulSoup
+
+data=requests.get("https://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire")
+data=data.content
+print(BeautifulSoup(data,"html.parser")
+
+

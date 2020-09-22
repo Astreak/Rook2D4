@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<head>
+	<title>REGISTER</title>
+</head>
+<body bgcolor="aqua" style="color:red">
+	<h1> REGISTER INTO OUR ACCOUNT</h1>
+	<hr>
+	{% if name %}
+	<hr>
+	<h2>YOU HAVE SUCCESSFULLY SCRAPPED</h2>
+	{% endif %}
+	<form action="#" method="post">
+		<input type="email" name="email">
+		Name:<input type="text" name="name">
+		Categories you are searching for!![a. TECH,b. Fashion] <input type="text" name="txt">
+		<button type="submit">SUBMIT</button>
+	</form>
+	HERE IS THE API DATA
+	<hr>
+	{{api}}
+	THANK YOu
+</body>
+</html>
